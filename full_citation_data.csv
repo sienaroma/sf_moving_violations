@@ -1,0 +1,21 @@
+Race,Sex,Citation_Issued,Count
+asian/pacific islander,female,FALSE,6902
+asian/pacific islander,female,TRUE,25841
+asian/pacific islander,male,FALSE,13921
+asian/pacific islander,male,TRUE,56716
+black,female,FALSE,8082
+black,female,TRUE,14164
+black,male,FALSE,21270
+black,male,TRUE,31966
+hispanic,female,FALSE,4341
+hispanic,female,TRUE,11458
+hispanic,male,FALSE,15284
+hispanic,male,TRUE,35969
+other,female,FALSE,2879
+other,female,TRUE,12438
+other,male,FALSE,11837
+other,male,TRUE,45978
+white,female,FALSE,22336
+white,female,TRUE,58710
+white,male,FALSE,43697
+white,male,TRUE,119526
