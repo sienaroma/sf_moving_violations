@@ -8,3 +8,5 @@ Using monthly stop data between July 2011 to June 2016, an ARIMA model predicted
 
 ### Three-way Chi-Square Tests for Independence and Cramer’s V Statistics for Determining the Relationship Between Driver Gender and Race and Receiving a Citation
 Tests concluded that there was a significant, moderately sized relationship between race and receiving a citation from a moving violation for male drivers between 2007 and June 2016. Specifically, individual pairwise comparison tests and Cramer’s V statistics evidenced that Asian/Pacific Islander and Black male drivers and Black and other race male drivers had significantly different associations with receiving a moving violation citation at a moderate level.
+
+[chi_squared_three_way_independence_testing.sas](https://github.com/sienaroma/sf_moving_violations/blob/main/chi_squared_three_way_independence_testing.sas)
