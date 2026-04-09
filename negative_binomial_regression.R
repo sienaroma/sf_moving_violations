@@ -5,6 +5,7 @@ library(zoo)
 library(dplyr)
 library(lubridate)
 library(sandwich)
+library(lmtest)
 
 #import data
 data <- read_csv("monthly_moving_violation.csv")
@@ -17,6 +18,8 @@ data$month_numeric <-format(data$Month,"%m")
 #negative binomial regression model
 monthly_trend <- glm.nb(Stop_Count ~ month_numeric,data=data)
 summary(monthly_trend)
+hc_vcov <- vcovHC(monthly_trend,type="HC3")
+coeftest(monthly_trend,vcov = hc_vcov)
 #output confirms June, November, and December are significant
 
 #test against null model to confirm significances aren't due to overfitting
